@@ -1,0 +1,12 @@
+.font {
+  font-family: "Open Sans", sans-serif;
+}
+.fontxl {
+  font-size: x-large;
+}
+html {
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+
+  min-width: 100%;
+  min-height: 100%;
+}
