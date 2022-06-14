@@ -1,0 +1,51 @@
+.App {
+  padding: 35px;
+  width: 55%;
+  margin: 10px auto;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: xx-large;
+  border: #b8f1b0;
+  border-style: solid;
+  border-radius: 30px 30px 30px;
+  padding: 5px;
+  color: #14c38e;
+}
+.cardlist {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  flex-wrap: wrap;
+}
+.card {
+  width: 18%;
+  height: 120px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+  background-color: #f4f5f7;
+  border-radius: 15px;
+  padding: 0;
+}
+
+.card .front {
+  font-size: 50px;
+  line-height: 120px;
+  cursor: pointer;
+  color: darken(#f4f5f7, 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  padding: 0;
+}
+.back {
+  line-height: 110px;
+}
+img {
+  vertical-align: middle;
+  width: 70%;
+}
